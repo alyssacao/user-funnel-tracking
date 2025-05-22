@@ -21,7 +21,7 @@ This project focuses on tracking and analyzing the user journey through an e-com
 
 4. **Queries (`Queries.sql`)**
    - **Transform Queries**: Generate cleaned funnel-stage tables by processing session-level event data. For example, create a Parquet-format table with compressed, timestamp-cast stage information, user device categories standardized, and filtering out incomplete or invalid stage timing data.
-   - **Ad Hoc Queries**: Provide insights such as:
+   - **Queries**: Provide insights such as:
      - **Hourly User Activity Count**
      - **User Count by Funnel Stage**
      - **Top Product Categories**
