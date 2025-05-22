@@ -1,0 +1,661 @@
+user_id,session_id,stage,stage_timestamp,next_stage,next_stage_timestamp,time_to_next_stage,did_drop,product_id,category,device_type,location
+U001,feee15e2,page_view,2025-04-25 15:12:10,add_to_cart,2025-04-25 15:13:27,77.0,False,P1054,Beauty,desktop,Florida
+U001,feee15e2,add_to_cart,2025-04-25 15:13:27,checkout,2025-04-25 15:14:29,62.0,False,P1054,Beauty,desktop,Florida
+U001,feee15e2,checkout,2025-04-25 15:14:29,,,,True,P1054,Beauty,desktop,Florida
+U002,a61cc9c9,page_view,2025-04-25 14:58:56,add_to_cart,2025-04-25 14:59:48,52.0,False,P1080,Electronics,mobile,New York
+U002,a61cc9c9,add_to_cart,2025-04-25 14:59:48,checkout,2025-04-25 15:01:10,82.0,False,P1080,Electronics,mobile,New York
+U002,a61cc9c9,checkout,2025-04-25 15:01:10,,,,True,P1080,Electronics,mobile,New York
+U003,cd4bb9cf,page_view,2025-04-25 17:17:48,add_to_cart,2025-04-25 17:18:52,64.0,False,P1003,Beauty,desktop,California
+U003,cd4bb9cf,add_to_cart,2025-04-25 17:18:52,checkout,2025-04-25 17:19:47,55.0,False,P1003,Beauty,desktop,California
+U003,cd4bb9cf,checkout,2025-04-25 17:19:47,,,,True,P1003,Beauty,desktop,California
+U004,b42ce5f1,page_view,2025-04-25 17:23:54,add_to_cart,2025-04-25 17:25:52,118.0,False,P1002,Clothing,desktop,Illinois
+U004,b42ce5f1,add_to_cart,2025-04-25 17:25:52,checkout,2025-04-25 17:27:48,116.0,False,P1002,Clothing,desktop,Illinois
+U004,b42ce5f1,checkout,2025-04-25 17:27:48,purchase,2025-04-25 17:29:46,118.0,False,P1002,Clothing,desktop,Illinois
+U004,b42ce5f1,purchase,2025-04-25 17:29:46,,,,True,P1002,Clothing,desktop,Illinois
+U005,d964669e,page_view,2025-04-25 17:37:23,add_to_cart,2025-04-25 17:38:46,83.0,False,P1022,Home,desktop,Illinois
+U005,d964669e,add_to_cart,2025-04-25 17:38:46,checkout,2025-04-25 17:39:40,54.0,False,P1022,Home,desktop,Illinois
+U005,d964669e,checkout,2025-04-25 17:39:40,purchase,2025-04-25 17:40:41,61.0,False,P1022,Home,desktop,Illinois
+U005,d964669e,purchase,2025-04-25 17:40:41,,,,True,P1022,Home,desktop,Illinois
+U006,e1d44f92,page_view,2025-04-25 11:47:30,add_to_cart,2025-04-25 11:48:38,68.0,False,P1016,Home,tablet,New York
+U006,e1d44f92,add_to_cart,2025-04-25 11:48:38,,,,True,P1016,Home,tablet,New York
+U007,8970692b,page_view,2025-04-25 13:49:42,add_to_cart,2025-04-25 13:51:40,118.0,False,P1076,Books,mobile,New York
+U007,8970692b,add_to_cart,2025-04-25 13:51:40,,,,True,P1076,Books,mobile,New York
+U008,ed61d1e3,page_view,2025-04-25 10:07:52,add_to_cart,2025-04-25 10:08:26,34.0,False,P1051,Clothing,mobile,Illinois
+U008,ed61d1e3,add_to_cart,2025-04-25 10:08:26,checkout,2025-04-25 10:09:32,66.0,False,P1051,Clothing,mobile,Illinois
+U008,ed61d1e3,checkout,2025-04-25 10:09:32,purchase,2025-04-25 10:10:55,83.0,False,P1051,Clothing,mobile,Illinois
+U008,ed61d1e3,purchase,2025-04-25 10:10:55,,,,True,P1051,Clothing,mobile,Illinois
+U009,f91aace1,page_view,2025-04-25 10:18:14,add_to_cart,2025-04-25 10:19:47,93.0,False,P1050,Electronics,desktop,Illinois
+U009,f91aace1,add_to_cart,2025-04-25 10:19:47,checkout,2025-04-25 10:21:22,95.0,False,P1050,Electronics,desktop,Illinois
+U009,f91aace1,checkout,2025-04-25 10:21:22,purchase,2025-04-25 10:22:20,58.0,False,P1050,Electronics,desktop,Illinois
+U009,f91aace1,purchase,2025-04-25 10:22:20,,,,True,P1050,Electronics,desktop,Illinois
+U010,9aaf5422,page_view,2025-04-25 14:27:36,add_to_cart,2025-04-25 14:28:44,68.0,False,P1022,Clothing,desktop,Texas
+U010,9aaf5422,add_to_cart,2025-04-25 14:28:44,checkout,2025-04-25 14:30:34,110.0,False,P1022,Clothing,desktop,Texas
+U010,9aaf5422,checkout,2025-04-25 14:30:34,purchase,2025-04-25 14:31:32,58.0,False,P1022,Clothing,desktop,Texas
+U010,9aaf5422,purchase,2025-04-25 14:31:32,,,,True,P1022,Clothing,desktop,Texas
+U011,3ccf992d,page_view,2025-04-25 17:43:38,add_to_cart,2025-04-25 17:44:38,60.0,False,P1041,Electronics,mobile,Florida
+U011,3ccf992d,add_to_cart,2025-04-25 17:44:38,,,,True,P1041,Electronics,mobile,Florida
+U012,4bf50c30,page_view,2025-04-25 10:04:31,add_to_cart,2025-04-25 10:05:22,51.0,False,P1065,Clothing,mobile,California
+U012,4bf50c30,add_to_cart,2025-04-25 10:05:22,checkout,2025-04-25 10:05:58,36.0,False,P1065,Clothing,mobile,California
+U012,4bf50c30,checkout,2025-04-25 10:05:58,,,,True,P1065,Clothing,mobile,California
+U013,4228ea71,page_view,2025-04-25 18:00:44,add_to_cart,2025-04-25 18:01:49,65.0,False,P1040,Books,mobile,Illinois
+U013,4228ea71,add_to_cart,2025-04-25 18:01:49,checkout,2025-04-25 18:03:12,83.0,False,P1040,Books,mobile,Illinois
+U013,4228ea71,checkout,2025-04-25 18:03:12,purchase,2025-04-25 18:04:57,105.0,False,P1040,Books,mobile,Illinois
+U013,4228ea71,purchase,2025-04-25 18:04:57,,,,True,P1040,Books,mobile,Illinois
+U014,57507a0b,page_view,2025-04-25 17:26:53,add_to_cart,2025-04-25 17:28:07,74.0,False,P1053,Clothing,mobile,Florida
+U014,57507a0b,add_to_cart,2025-04-25 17:28:07,checkout,2025-04-25 17:29:13,66.0,False,P1053,Clothing,mobile,Florida
+U014,57507a0b,checkout,2025-04-25 17:29:13,purchase,2025-04-25 17:31:05,112.0,False,P1053,Clothing,mobile,Florida
+U014,57507a0b,purchase,2025-04-25 17:31:05,,,,True,P1053,Clothing,mobile,Florida
+U015,e1c282e5,page_view,2025-04-25 18:51:58,add_to_cart,2025-04-25 18:53:30,92.0,False,P1067,Beauty,tablet,California
+U015,e1c282e5,add_to_cart,2025-04-25 18:53:30,checkout,2025-04-25 18:54:09,39.0,False,P1067,Beauty,tablet,California
+U015,e1c282e5,checkout,2025-04-25 18:54:09,,,,True,P1067,Beauty,tablet,California
+U016,04c735dc,page_view,2025-04-25 11:47:21,add_to_cart,2025-04-25 11:48:25,64.0,False,P1022,Home,mobile,Florida
+U016,04c735dc,add_to_cart,2025-04-25 11:48:25,checkout,2025-04-25 11:49:33,68.0,False,P1022,Home,mobile,Florida
+U016,04c735dc,checkout,2025-04-25 11:49:33,purchase,2025-04-25 11:51:01,88.0,False,P1022,Home,mobile,Florida
+U016,04c735dc,purchase,2025-04-25 11:51:01,,,,True,P1022,Home,mobile,Florida
+U017,984029be,page_view,2025-04-25 10:27:20,add_to_cart,2025-04-25 10:28:54,94.0,False,P1084,Clothing,tablet,Texas
+U017,984029be,add_to_cart,2025-04-25 10:28:54,checkout,2025-04-25 10:29:26,32.0,False,P1084,Clothing,tablet,Texas
+U017,984029be,checkout,2025-04-25 10:29:26,,,,True,P1084,Clothing,tablet,Texas
+U018,93af19ec,page_view,2025-04-25 13:15:16,add_to_cart,2025-04-25 13:16:54,98.0,False,P1003,Home,mobile,Texas
+U018,93af19ec,add_to_cart,2025-04-25 13:16:54,checkout,2025-04-25 13:18:21,87.0,False,P1003,Home,mobile,Texas
+U018,93af19ec,checkout,2025-04-25 13:18:21,purchase,2025-04-25 13:18:53,32.0,False,P1003,Home,mobile,Texas
+U018,93af19ec,purchase,2025-04-25 13:18:53,,,,True,P1003,Home,mobile,Texas
+U019,5956125c,page_view,2025-04-25 10:14:42,add_to_cart,2025-04-25 10:16:37,115.0,False,P1089,Books,desktop,Texas
+U019,5956125c,add_to_cart,2025-04-25 10:16:37,checkout,2025-04-25 10:18:26,109.0,False,P1089,Books,desktop,Texas
+U019,5956125c,checkout,2025-04-25 10:18:26,,,,True,P1089,Books,desktop,Texas
+U020,26b238ef,page_view,2025-04-25 15:42:20,add_to_cart,2025-04-25 15:43:00,40.0,False,P1079,Clothing,desktop,California
+U020,26b238ef,add_to_cart,2025-04-25 15:43:00,checkout,2025-04-25 15:44:07,67.0,False,P1079,Clothing,desktop,California
+U020,26b238ef,checkout,2025-04-25 15:44:07,,,,True,P1079,Clothing,desktop,California
+U021,025eee87,page_view,2025-04-25 11:59:20,add_to_cart,2025-04-25 11:59:55,35.0,False,P1026,Electronics,desktop,Texas
+U021,025eee87,add_to_cart,2025-04-25 11:59:55,,,,True,P1026,Electronics,desktop,Texas
+U022,fd6f2561,page_view,2025-04-25 12:11:49,add_to_cart,2025-04-25 12:12:35,46.0,False,P1088,Home,tablet,New York
+U022,fd6f2561,add_to_cart,2025-04-25 12:12:35,checkout,2025-04-25 12:13:33,58.0,False,P1088,Home,tablet,New York
+U022,fd6f2561,checkout,2025-04-25 12:13:33,,,,True,P1088,Home,tablet,New York
+U023,3a979e98,page_view,2025-04-25 18:18:43,add_to_cart,2025-04-25 18:20:05,82.0,False,P1053,Books,desktop,California
+U023,3a979e98,add_to_cart,2025-04-25 18:20:05,checkout,2025-04-25 18:21:36,91.0,False,P1053,Books,desktop,California
+U023,3a979e98,checkout,2025-04-25 18:21:36,,,,True,P1053,Books,desktop,California
+U024,66d818a5,page_view,2025-04-25 13:37:24,add_to_cart,2025-04-25 13:38:41,77.0,False,P1052,Home,desktop,Illinois
+U024,66d818a5,add_to_cart,2025-04-25 13:38:41,checkout,2025-04-25 13:40:11,90.0,False,P1052,Home,desktop,Illinois
+U024,66d818a5,checkout,2025-04-25 13:40:11,purchase,2025-04-25 13:41:27,76.0,False,P1052,Home,desktop,Illinois
+U024,66d818a5,purchase,2025-04-25 13:41:27,,,,True,P1052,Home,desktop,Illinois
+U025,82052b1d,page_view,2025-04-25 12:56:45,add_to_cart,2025-04-25 12:58:36,111.0,False,P1070,Books,desktop,Florida
+U025,82052b1d,add_to_cart,2025-04-25 12:58:36,checkout,2025-04-25 13:00:32,116.0,False,P1070,Books,desktop,Florida
+U025,82052b1d,checkout,2025-04-25 13:00:32,purchase,2025-04-25 13:02:19,107.0,False,P1070,Books,desktop,Florida
+U025,82052b1d,purchase,2025-04-25 13:02:19,,,,True,P1070,Books,desktop,Florida
+U026,50c2acbd,page_view,2025-04-25 14:41:33,add_to_cart,2025-04-25 14:42:26,53.0,False,P1096,Beauty,desktop,Texas
+U026,50c2acbd,add_to_cart,2025-04-25 14:42:26,checkout,2025-04-25 14:43:01,35.0,False,P1096,Beauty,desktop,Texas
+U026,50c2acbd,checkout,2025-04-25 14:43:01,,,,True,P1096,Beauty,desktop,Texas
+U027,b5dc0369,page_view,2025-04-25 12:25:12,add_to_cart,2025-04-25 12:26:13,61.0,False,P1073,Clothing,mobile,Illinois
+U027,b5dc0369,add_to_cart,2025-04-25 12:26:13,checkout,2025-04-25 12:26:47,34.0,False,P1073,Clothing,mobile,Illinois
+U027,b5dc0369,checkout,2025-04-25 12:26:47,,,,True,P1073,Clothing,mobile,Illinois
+U028,9b58edf8,page_view,2025-04-25 13:47:51,add_to_cart,2025-04-25 13:49:10,79.0,False,P1000,Electronics,tablet,Texas
+U028,9b58edf8,add_to_cart,2025-04-25 13:49:10,checkout,2025-04-25 13:51:09,119.0,False,P1000,Electronics,tablet,Texas
+U028,9b58edf8,checkout,2025-04-25 13:51:09,purchase,2025-04-25 13:52:35,86.0,False,P1000,Electronics,tablet,Texas
+U028,9b58edf8,purchase,2025-04-25 13:52:35,,,,True,P1000,Electronics,tablet,Texas
+U029,689d62c0,page_view,2025-04-25 10:57:38,add_to_cart,2025-04-25 10:58:59,81.0,False,P1000,Beauty,desktop,Florida
+U029,689d62c0,add_to_cart,2025-04-25 10:58:59,checkout,2025-04-25 11:00:53,114.0,False,P1000,Beauty,desktop,Florida
+U029,689d62c0,checkout,2025-04-25 11:00:53,,,,True,P1000,Beauty,desktop,Florida
+U030,3caa30b5,page_view,2025-04-25 18:54:17,add_to_cart,2025-04-25 18:55:05,48.0,False,P1030,Beauty,desktop,Texas
+U030,3caa30b5,add_to_cart,2025-04-25 18:55:05,,,,True,P1030,Beauty,desktop,Texas
+U031,99069c14,page_view,2025-04-25 18:35:49,add_to_cart,2025-04-25 18:37:23,94.0,False,P1081,Clothing,mobile,Illinois
+U031,99069c14,add_to_cart,2025-04-25 18:37:23,checkout,2025-04-25 18:38:40,77.0,False,P1081,Clothing,mobile,Illinois
+U031,99069c14,checkout,2025-04-25 18:38:40,purchase,2025-04-25 18:39:40,60.0,False,P1081,Clothing,mobile,Illinois
+U031,99069c14,purchase,2025-04-25 18:39:40,,,,True,P1081,Clothing,mobile,Illinois
+U032,ad65dd4b,page_view,2025-04-25 10:13:48,add_to_cart,2025-04-25 10:15:26,98.0,False,P1015,Clothing,desktop,Texas
+U032,ad65dd4b,add_to_cart,2025-04-25 10:15:26,checkout,2025-04-25 10:17:23,117.0,False,P1015,Clothing,desktop,Texas
+U032,ad65dd4b,checkout,2025-04-25 10:17:23,,,,True,P1015,Clothing,desktop,Texas
+U033,23ffd42b,page_view,2025-04-25 13:18:09,add_to_cart,2025-04-25 13:18:41,32.0,False,P1010,Clothing,tablet,California
+U033,23ffd42b,add_to_cart,2025-04-25 13:18:41,checkout,2025-04-25 13:20:24,103.0,False,P1010,Clothing,tablet,California
+U033,23ffd42b,checkout,2025-04-25 13:20:24,,,,True,P1010,Clothing,tablet,California
+U034,da3ff63d,page_view,2025-04-25 11:07:26,add_to_cart,2025-04-25 11:09:10,104.0,False,P1058,Books,mobile,Florida
+U034,da3ff63d,add_to_cart,2025-04-25 11:09:10,checkout,2025-04-25 11:09:47,37.0,False,P1058,Books,mobile,Florida
+U034,da3ff63d,checkout,2025-04-25 11:09:47,purchase,2025-04-25 11:11:27,100.0,False,P1058,Books,mobile,Florida
+U034,da3ff63d,purchase,2025-04-25 11:11:27,,,,True,P1058,Books,mobile,Florida
+U035,1c9d6c5c,page_view,2025-04-25 10:03:41,add_to_cart,2025-04-25 10:05:26,105.0,False,P1020,Electronics,desktop,Illinois
+U035,1c9d6c5c,add_to_cart,2025-04-25 10:05:26,checkout,2025-04-25 10:05:59,33.0,False,P1020,Electronics,desktop,Illinois
+U035,1c9d6c5c,checkout,2025-04-25 10:05:59,purchase,2025-04-25 10:06:33,34.0,False,P1020,Electronics,desktop,Illinois
+U035,1c9d6c5c,purchase,2025-04-25 10:06:33,,,,True,P1020,Electronics,desktop,Illinois
+U036,39ca9a8b,page_view,2025-04-25 13:01:09,add_to_cart,2025-04-25 13:02:53,104.0,False,P1055,Clothing,desktop,New York
+U036,39ca9a8b,add_to_cart,2025-04-25 13:02:53,checkout,2025-04-25 13:04:52,119.0,False,P1055,Clothing,desktop,New York
+U036,39ca9a8b,checkout,2025-04-25 13:04:52,purchase,2025-04-25 13:05:29,37.0,False,P1055,Clothing,desktop,New York
+U036,39ca9a8b,purchase,2025-04-25 13:05:29,,,,True,P1055,Clothing,desktop,New York
+U037,5c5a3fd2,page_view,2025-04-25 16:55:52,add_to_cart,2025-04-25 16:56:48,56.0,False,P1092,Home,desktop,Florida
+U037,5c5a3fd2,add_to_cart,2025-04-25 16:56:48,checkout,2025-04-25 16:58:09,81.0,False,P1092,Home,desktop,Florida
+U037,5c5a3fd2,checkout,2025-04-25 16:58:09,purchase,2025-04-25 16:59:13,64.0,False,P1092,Home,desktop,Florida
+U037,5c5a3fd2,purchase,2025-04-25 16:59:13,,,,True,P1092,Home,desktop,Florida
+U038,88ddec13,page_view,2025-04-25 13:53:30,add_to_cart,2025-04-25 13:54:06,36.0,False,P1042,Clothing,tablet,California
+U038,88ddec13,add_to_cart,2025-04-25 13:54:06,checkout,2025-04-25 13:55:19,73.0,False,P1042,Clothing,tablet,California
+U038,88ddec13,checkout,2025-04-25 13:55:19,purchase,2025-04-25 13:56:51,92.0,False,P1042,Clothing,tablet,California
+U038,88ddec13,purchase,2025-04-25 13:56:51,,,,True,P1042,Clothing,tablet,California
+U039,ee53b6f6,page_view,2025-04-25 18:45:39,add_to_cart,2025-04-25 18:46:40,61.0,False,P1033,Electronics,mobile,California
+U039,ee53b6f6,add_to_cart,2025-04-25 18:46:40,checkout,2025-04-25 18:47:35,55.0,False,P1033,Electronics,mobile,California
+U039,ee53b6f6,checkout,2025-04-25 18:47:35,,,,True,P1033,Electronics,mobile,California
+U040,3153696d,page_view,2025-04-25 12:02:03,add_to_cart,2025-04-25 12:02:45,42.0,False,P1045,Books,mobile,Texas
+U040,3153696d,add_to_cart,2025-04-25 12:02:45,checkout,2025-04-25 12:03:16,31.0,False,P1045,Books,mobile,Texas
+U040,3153696d,checkout,2025-04-25 12:03:16,purchase,2025-04-25 12:04:28,72.0,False,P1045,Books,mobile,Texas
+U040,3153696d,purchase,2025-04-25 12:04:28,,,,True,P1045,Books,mobile,Texas
+U041,2e488ea5,page_view,2025-04-25 15:38:22,add_to_cart,2025-04-25 15:39:05,43.0,False,P1042,Beauty,desktop,New York
+U041,2e488ea5,add_to_cart,2025-04-25 15:39:05,checkout,2025-04-25 15:39:41,36.0,False,P1042,Beauty,desktop,New York
+U041,2e488ea5,checkout,2025-04-25 15:39:41,purchase,2025-04-25 15:41:35,114.0,False,P1042,Beauty,desktop,New York
+U041,2e488ea5,purchase,2025-04-25 15:41:35,,,,True,P1042,Beauty,desktop,New York
+U042,c2bbb3f4,page_view,2025-04-25 14:38:38,add_to_cart,2025-04-25 14:40:14,96.0,False,P1087,Books,desktop,California
+U042,c2bbb3f4,add_to_cart,2025-04-25 14:40:14,,,,True,P1087,Books,desktop,California
+U043,85f5fdcf,page_view,2025-04-25 16:02:15,add_to_cart,2025-04-25 16:03:19,64.0,False,P1014,Electronics,tablet,Florida
+U043,85f5fdcf,add_to_cart,2025-04-25 16:03:19,checkout,2025-04-25 16:04:39,80.0,False,P1014,Electronics,tablet,Florida
+U043,85f5fdcf,checkout,2025-04-25 16:04:39,purchase,2025-04-25 16:06:31,112.0,False,P1014,Electronics,tablet,Florida
+U043,85f5fdcf,purchase,2025-04-25 16:06:31,,,,True,P1014,Electronics,tablet,Florida
+U044,9946e890,page_view,2025-04-25 17:48:29,add_to_cart,2025-04-25 17:50:09,100.0,False,P1062,Clothing,tablet,Illinois
+U044,9946e890,add_to_cart,2025-04-25 17:50:09,checkout,2025-04-25 17:51:04,55.0,False,P1062,Clothing,tablet,Illinois
+U044,9946e890,checkout,2025-04-25 17:51:04,purchase,2025-04-25 17:51:39,35.0,False,P1062,Clothing,tablet,Illinois
+U044,9946e890,purchase,2025-04-25 17:51:39,,,,True,P1062,Clothing,tablet,Illinois
+U045,7ad02f1c,page_view,2025-04-25 14:16:35,add_to_cart,2025-04-25 14:17:12,37.0,False,P1022,Home,mobile,Texas
+U045,7ad02f1c,add_to_cart,2025-04-25 14:17:12,checkout,2025-04-25 14:18:01,49.0,False,P1022,Home,mobile,Texas
+U045,7ad02f1c,checkout,2025-04-25 14:18:01,,,,True,P1022,Home,mobile,Texas
+U046,584dd109,page_view,2025-04-25 14:15:14,add_to_cart,2025-04-25 14:16:58,104.0,False,P1095,Beauty,tablet,Illinois
+U046,584dd109,add_to_cart,2025-04-25 14:16:58,checkout,2025-04-25 14:17:40,42.0,False,P1095,Beauty,tablet,Illinois
+U046,584dd109,checkout,2025-04-25 14:17:40,purchase,2025-04-25 14:18:17,37.0,False,P1095,Beauty,tablet,Illinois
+U046,584dd109,purchase,2025-04-25 14:18:17,,,,True,P1095,Beauty,tablet,Illinois
+U047,24de1196,page_view,2025-04-25 12:41:22,add_to_cart,2025-04-25 12:43:08,106.0,False,P1015,Home,desktop,Illinois
+U047,24de1196,add_to_cart,2025-04-25 12:43:08,checkout,2025-04-25 12:44:44,96.0,False,P1015,Home,desktop,Illinois
+U047,24de1196,checkout,2025-04-25 12:44:44,purchase,2025-04-25 12:45:27,43.0,False,P1015,Home,desktop,Illinois
+U047,24de1196,purchase,2025-04-25 12:45:27,,,,True,P1015,Home,desktop,Illinois
+U048,5b3e4320,page_view,2025-04-25 17:50:50,add_to_cart,2025-04-25 17:51:52,62.0,False,P1014,Beauty,mobile,Illinois
+U048,5b3e4320,add_to_cart,2025-04-25 17:51:52,checkout,2025-04-25 17:52:34,42.0,False,P1014,Beauty,mobile,Illinois
+U048,5b3e4320,checkout,2025-04-25 17:52:34,,,,True,P1014,Beauty,mobile,Illinois
+U049,12427a23,page_view,2025-04-25 14:30:50,add_to_cart,2025-04-25 14:32:45,115.0,False,P1096,Clothing,mobile,California
+U049,12427a23,add_to_cart,2025-04-25 14:32:45,checkout,2025-04-25 14:34:42,117.0,False,P1096,Clothing,mobile,California
+U049,12427a23,checkout,2025-04-25 14:34:42,purchase,2025-04-25 14:36:19,97.0,False,P1096,Clothing,mobile,California
+U049,12427a23,purchase,2025-04-25 14:36:19,,,,True,P1096,Clothing,mobile,California
+U050,108214c6,page_view,2025-04-25 12:13:01,add_to_cart,2025-04-25 12:13:34,33.0,False,P1071,Clothing,mobile,Florida
+U050,108214c6,add_to_cart,2025-04-25 12:13:34,checkout,2025-04-25 12:15:13,99.0,False,P1071,Clothing,mobile,Florida
+U050,108214c6,checkout,2025-04-25 12:15:13,,,,True,P1071,Clothing,mobile,Florida
+U051,f4c2ea91,page_view,2025-04-25 15:19:51,add_to_cart,2025-04-25 15:20:33,42.0,False,P1014,Home,mobile,Florida
+U051,f4c2ea91,add_to_cart,2025-04-25 15:20:33,checkout,2025-04-25 15:21:08,35.0,False,P1014,Home,mobile,Florida
+U051,f4c2ea91,checkout,2025-04-25 15:21:08,purchase,2025-04-25 15:21:48,40.0,False,P1014,Home,mobile,Florida
+U051,f4c2ea91,purchase,2025-04-25 15:21:48,,,,True,P1014,Home,mobile,Florida
+U052,1c634470,page_view,2025-04-25 17:37:10,add_to_cart,2025-04-25 17:39:07,117.0,False,P1053,Electronics,desktop,New York
+U052,1c634470,add_to_cart,2025-04-25 17:39:07,checkout,2025-04-25 17:40:04,57.0,False,P1053,Electronics,desktop,New York
+U052,1c634470,checkout,2025-04-25 17:40:04,purchase,2025-04-25 17:40:40,36.0,False,P1053,Electronics,desktop,New York
+U052,1c634470,purchase,2025-04-25 17:40:40,,,,True,P1053,Electronics,desktop,New York
+U053,118a5ae3,page_view,2025-04-25 16:57:42,add_to_cart,2025-04-25 16:58:55,73.0,False,P1070,Clothing,tablet,Texas
+U053,118a5ae3,add_to_cart,2025-04-25 16:58:55,checkout,2025-04-25 17:00:20,85.0,False,P1070,Clothing,tablet,Texas
+U053,118a5ae3,checkout,2025-04-25 17:00:20,,,,True,P1070,Clothing,tablet,Texas
+U054,75d86b44,page_view,2025-04-25 12:11:10,add_to_cart,2025-04-25 12:12:38,88.0,False,P1064,Beauty,mobile,California
+U054,75d86b44,add_to_cart,2025-04-25 12:12:38,,,,True,P1064,Beauty,mobile,California
+U055,bbfed06c,page_view,2025-04-25 18:37:25,add_to_cart,2025-04-25 18:38:47,82.0,False,P1083,Clothing,tablet,Illinois
+U055,bbfed06c,add_to_cart,2025-04-25 18:38:47,,,,True,P1083,Clothing,tablet,Illinois
+U056,cc0a7899,page_view,2025-04-25 14:14:02,add_to_cart,2025-04-25 14:14:58,56.0,False,P1033,Beauty,desktop,Illinois
+U056,cc0a7899,add_to_cart,2025-04-25 14:14:58,checkout,2025-04-25 14:16:38,100.0,False,P1033,Beauty,desktop,Illinois
+U056,cc0a7899,checkout,2025-04-25 14:16:38,purchase,2025-04-25 14:17:53,75.0,False,P1033,Beauty,desktop,Illinois
+U056,cc0a7899,purchase,2025-04-25 14:17:53,,,,True,P1033,Beauty,desktop,Illinois
+U057,1f3f93bd,page_view,2025-04-25 13:59:37,add_to_cart,2025-04-25 14:01:35,118.0,False,P1070,Home,mobile,Texas
+U057,1f3f93bd,add_to_cart,2025-04-25 14:01:35,,,,True,P1070,Home,mobile,Texas
+U058,20f0675e,page_view,2025-04-25 14:51:28,add_to_cart,2025-04-25 14:53:01,93.0,False,P1000,Home,mobile,New York
+U058,20f0675e,add_to_cart,2025-04-25 14:53:01,,,,True,P1000,Home,mobile,New York
+U059,c152dd2b,page_view,2025-04-25 14:29:41,add_to_cart,2025-04-25 14:30:40,59.0,False,P1008,Beauty,desktop,Texas
+U059,c152dd2b,add_to_cart,2025-04-25 14:30:40,checkout,2025-04-25 14:32:27,107.0,False,P1008,Beauty,desktop,Texas
+U059,c152dd2b,checkout,2025-04-25 14:32:27,,,,True,P1008,Beauty,desktop,Texas
+U060,dbb5bf7f,page_view,2025-04-25 12:41:20,add_to_cart,2025-04-25 12:42:25,65.0,False,P1058,Books,desktop,California
+U060,dbb5bf7f,add_to_cart,2025-04-25 12:42:25,checkout,2025-04-25 12:43:29,64.0,False,P1058,Books,desktop,California
+U060,dbb5bf7f,checkout,2025-04-25 12:43:29,purchase,2025-04-25 12:45:18,109.0,False,P1058,Books,desktop,California
+U060,dbb5bf7f,purchase,2025-04-25 12:45:18,,,,True,P1058,Books,desktop,California
+U061,a342a894,page_view,2025-04-25 12:35:38,add_to_cart,2025-04-25 12:36:28,50.0,False,P1061,Electronics,mobile,New York
+U061,a342a894,add_to_cart,2025-04-25 12:36:28,checkout,2025-04-25 12:38:04,96.0,False,P1061,Electronics,mobile,New York
+U061,a342a894,checkout,2025-04-25 12:38:04,,,,True,P1061,Electronics,mobile,New York
+U062,627a34c6,page_view,2025-04-25 18:35:24,add_to_cart,2025-04-25 18:37:12,108.0,False,P1041,Books,desktop,Texas
+U062,627a34c6,add_to_cart,2025-04-25 18:37:12,checkout,2025-04-25 18:37:54,42.0,False,P1041,Books,desktop,Texas
+U062,627a34c6,checkout,2025-04-25 18:37:54,purchase,2025-04-25 18:38:52,58.0,False,P1041,Books,desktop,Texas
+U062,627a34c6,purchase,2025-04-25 18:38:52,,,,True,P1041,Books,desktop,Texas
+U063,49f7d893,page_view,2025-04-25 18:52:15,add_to_cart,2025-04-25 18:53:09,54.0,False,P1079,Electronics,mobile,New York
+U063,49f7d893,add_to_cart,2025-04-25 18:53:09,checkout,2025-04-25 18:54:32,83.0,False,P1079,Electronics,mobile,New York
+U063,49f7d893,checkout,2025-04-25 18:54:32,purchase,2025-04-25 18:56:11,99.0,False,P1079,Electronics,mobile,New York
+U063,49f7d893,purchase,2025-04-25 18:56:11,,,,True,P1079,Electronics,mobile,New York
+U064,e7e925de,page_view,2025-04-25 16:27:30,add_to_cart,2025-04-25 16:28:36,66.0,False,P1052,Home,tablet,California
+U064,e7e925de,add_to_cart,2025-04-25 16:28:36,,,,True,P1052,Home,tablet,California
+U065,0ce85ee7,page_view,2025-04-25 17:30:58,add_to_cart,2025-04-25 17:31:34,36.0,False,P1021,Books,mobile,New York
+U065,0ce85ee7,add_to_cart,2025-04-25 17:31:34,checkout,2025-04-25 17:32:49,75.0,False,P1021,Books,mobile,New York
+U065,0ce85ee7,checkout,2025-04-25 17:32:49,purchase,2025-04-25 17:34:14,85.0,False,P1021,Books,mobile,New York
+U065,0ce85ee7,purchase,2025-04-25 17:34:14,,,,True,P1021,Books,mobile,New York
+U066,18b969ab,page_view,2025-04-25 17:01:59,add_to_cart,2025-04-25 17:03:01,62.0,False,P1033,Beauty,mobile,Florida
+U066,18b969ab,add_to_cart,2025-04-25 17:03:01,checkout,2025-04-25 17:04:33,92.0,False,P1033,Beauty,mobile,Florida
+U066,18b969ab,checkout,2025-04-25 17:04:33,,,,True,P1033,Beauty,mobile,Florida
+U067,cdb6a8b3,page_view,2025-04-25 16:13:41,add_to_cart,2025-04-25 16:14:29,48.0,False,P1026,Electronics,tablet,Texas
+U067,cdb6a8b3,add_to_cart,2025-04-25 16:14:29,checkout,2025-04-25 16:15:19,50.0,False,P1026,Electronics,tablet,Texas
+U067,cdb6a8b3,checkout,2025-04-25 16:15:19,purchase,2025-04-25 16:16:34,75.0,False,P1026,Electronics,tablet,Texas
+U067,cdb6a8b3,purchase,2025-04-25 16:16:34,,,,True,P1026,Electronics,tablet,Texas
+U068,f691c409,page_view,2025-04-25 10:07:29,add_to_cart,2025-04-25 10:08:41,72.0,False,P1056,Electronics,desktop,New York
+U068,f691c409,add_to_cart,2025-04-25 10:08:41,checkout,2025-04-25 10:09:43,62.0,False,P1056,Electronics,desktop,New York
+U068,f691c409,checkout,2025-04-25 10:09:43,purchase,2025-04-25 10:10:19,36.0,False,P1056,Electronics,desktop,New York
+U068,f691c409,purchase,2025-04-25 10:10:19,,,,True,P1056,Electronics,desktop,New York
+U069,3f7d6a3b,page_view,2025-04-25 15:12:31,add_to_cart,2025-04-25 15:13:36,65.0,False,P1075,Books,mobile,Illinois
+U069,3f7d6a3b,add_to_cart,2025-04-25 15:13:36,checkout,2025-04-25 15:14:52,76.0,False,P1075,Books,mobile,Illinois
+U069,3f7d6a3b,checkout,2025-04-25 15:14:52,,,,True,P1075,Books,mobile,Illinois
+U070,28b8c041,page_view,2025-04-25 14:27:02,add_to_cart,2025-04-25 14:27:36,34.0,False,P1016,Home,tablet,Illinois
+U070,28b8c041,add_to_cart,2025-04-25 14:27:36,,,,True,P1016,Home,tablet,Illinois
+U071,65501d4c,page_view,2025-04-25 14:43:01,add_to_cart,2025-04-25 14:44:14,73.0,False,P1072,Home,mobile,Texas
+U071,65501d4c,add_to_cart,2025-04-25 14:44:14,checkout,2025-04-25 14:46:00,106.0,False,P1072,Home,mobile,Texas
+U071,65501d4c,checkout,2025-04-25 14:46:00,purchase,2025-04-25 14:47:09,69.0,False,P1072,Home,mobile,Texas
+U071,65501d4c,purchase,2025-04-25 14:47:09,,,,True,P1072,Home,mobile,Texas
+U072,81193a5f,page_view,2025-04-25 11:41:06,add_to_cart,2025-04-25 11:42:43,97.0,False,P1065,Books,mobile,Illinois
+U072,81193a5f,add_to_cart,2025-04-25 11:42:43,checkout,2025-04-25 11:44:21,98.0,False,P1065,Books,mobile,Illinois
+U072,81193a5f,checkout,2025-04-25 11:44:21,purchase,2025-04-25 11:45:43,82.0,False,P1065,Books,mobile,Illinois
+U072,81193a5f,purchase,2025-04-25 11:45:43,,,,True,P1065,Books,mobile,Illinois
+U073,22bf30cf,page_view,2025-04-25 14:07:36,add_to_cart,2025-04-25 14:09:07,91.0,False,P1058,Electronics,mobile,Texas
+U073,22bf30cf,add_to_cart,2025-04-25 14:09:07,checkout,2025-04-25 14:09:39,32.0,False,P1058,Electronics,mobile,Texas
+U073,22bf30cf,checkout,2025-04-25 14:09:39,purchase,2025-04-25 14:10:42,63.0,False,P1058,Electronics,mobile,Texas
+U073,22bf30cf,purchase,2025-04-25 14:10:42,,,,True,P1058,Electronics,mobile,Texas
+U074,6fc0f004,page_view,2025-04-25 14:17:30,add_to_cart,2025-04-25 14:19:10,100.0,False,P1075,Beauty,mobile,Illinois
+U074,6fc0f004,add_to_cart,2025-04-25 14:19:10,checkout,2025-04-25 14:20:17,67.0,False,P1075,Beauty,mobile,Illinois
+U074,6fc0f004,checkout,2025-04-25 14:20:17,,,,True,P1075,Beauty,mobile,Illinois
+U075,eeb3abcb,page_view,2025-04-25 14:10:59,add_to_cart,2025-04-25 14:11:52,53.0,False,P1009,Electronics,mobile,California
+U075,eeb3abcb,add_to_cart,2025-04-25 14:11:52,checkout,2025-04-25 14:13:38,106.0,False,P1009,Electronics,mobile,California
+U075,eeb3abcb,checkout,2025-04-25 14:13:38,purchase,2025-04-25 14:14:39,61.0,False,P1009,Electronics,mobile,California
+U075,eeb3abcb,purchase,2025-04-25 14:14:39,,,,True,P1009,Electronics,mobile,California
+U076,f04d1224,page_view,2025-04-25 11:45:38,add_to_cart,2025-04-25 11:47:14,96.0,False,P1086,Home,mobile,Florida
+U076,f04d1224,add_to_cart,2025-04-25 11:47:14,checkout,2025-04-25 11:48:42,88.0,False,P1086,Home,mobile,Florida
+U076,f04d1224,checkout,2025-04-25 11:48:42,,,,True,P1086,Home,mobile,Florida
+U077,533e7c74,page_view,2025-04-25 15:17:26,add_to_cart,2025-04-25 15:18:58,92.0,False,P1007,Beauty,tablet,Texas
+U077,533e7c74,add_to_cart,2025-04-25 15:18:58,checkout,2025-04-25 15:19:38,40.0,False,P1007,Beauty,tablet,Texas
+U077,533e7c74,checkout,2025-04-25 15:19:38,,,,True,P1007,Beauty,tablet,Texas
+U078,cdd8eb7e,page_view,2025-04-25 10:09:52,add_to_cart,2025-04-25 10:11:41,109.0,False,P1042,Electronics,mobile,Texas
+U078,cdd8eb7e,add_to_cart,2025-04-25 10:11:41,checkout,2025-04-25 10:13:00,79.0,False,P1042,Electronics,mobile,Texas
+U078,cdd8eb7e,checkout,2025-04-25 10:13:00,purchase,2025-04-25 10:13:35,35.0,False,P1042,Electronics,mobile,Texas
+U078,cdd8eb7e,purchase,2025-04-25 10:13:35,,,,True,P1042,Electronics,mobile,Texas
+U079,84653e6e,page_view,2025-04-25 14:23:16,add_to_cart,2025-04-25 14:24:26,70.0,False,P1062,Clothing,mobile,Texas
+U079,84653e6e,add_to_cart,2025-04-25 14:24:26,checkout,2025-04-25 14:25:20,54.0,False,P1062,Clothing,mobile,Texas
+U079,84653e6e,checkout,2025-04-25 14:25:20,purchase,2025-04-25 14:26:30,70.0,False,P1062,Clothing,mobile,Texas
+U079,84653e6e,purchase,2025-04-25 14:26:30,,,,True,P1062,Clothing,mobile,Texas
+U080,b33e0eea,page_view,2025-04-25 12:35:40,add_to_cart,2025-04-25 12:36:28,48.0,False,P1003,Beauty,desktop,California
+U080,b33e0eea,add_to_cart,2025-04-25 12:36:28,checkout,2025-04-25 12:37:40,72.0,False,P1003,Beauty,desktop,California
+U080,b33e0eea,checkout,2025-04-25 12:37:40,purchase,2025-04-25 12:38:20,40.0,False,P1003,Beauty,desktop,California
+U080,b33e0eea,purchase,2025-04-25 12:38:20,,,,True,P1003,Beauty,desktop,California
+U081,d19f1924,page_view,2025-04-25 11:00:19,add_to_cart,2025-04-25 11:01:54,95.0,False,P1092,Home,mobile,California
+U081,d19f1924,add_to_cart,2025-04-25 11:01:54,checkout,2025-04-25 11:02:49,55.0,False,P1092,Home,mobile,California
+U081,d19f1924,checkout,2025-04-25 11:02:49,,,,True,P1092,Home,mobile,California
+U082,a3a2646f,page_view,2025-04-25 11:57:29,add_to_cart,2025-04-25 11:59:10,101.0,False,P1073,Electronics,desktop,Texas
+U082,a3a2646f,add_to_cart,2025-04-25 11:59:10,checkout,2025-04-25 12:01:01,111.0,False,P1073,Electronics,desktop,Texas
+U082,a3a2646f,checkout,2025-04-25 12:01:01,purchase,2025-04-25 12:02:11,70.0,False,P1073,Electronics,desktop,Texas
+U082,a3a2646f,purchase,2025-04-25 12:02:11,,,,True,P1073,Electronics,desktop,Texas
+U083,258527cc,page_view,2025-04-25 14:08:53,add_to_cart,2025-04-25 14:10:20,87.0,False,P1099,Clothing,tablet,California
+U083,258527cc,add_to_cart,2025-04-25 14:10:20,checkout,2025-04-25 14:12:15,115.0,False,P1099,Clothing,tablet,California
+U083,258527cc,checkout,2025-04-25 14:12:15,,,,True,P1099,Clothing,tablet,California
+U084,e55de851,page_view,2025-04-25 10:09:29,add_to_cart,2025-04-25 10:10:36,67.0,False,P1003,Electronics,desktop,California
+U084,e55de851,add_to_cart,2025-04-25 10:10:36,checkout,2025-04-25 10:12:19,103.0,False,P1003,Electronics,desktop,California
+U084,e55de851,checkout,2025-04-25 10:12:19,,,,True,P1003,Electronics,desktop,California
+U085,b2f7b8ca,page_view,2025-04-25 12:02:41,add_to_cart,2025-04-25 12:03:27,46.0,False,P1100,Books,tablet,Texas
+U085,b2f7b8ca,add_to_cart,2025-04-25 12:03:27,checkout,2025-04-25 12:04:59,92.0,False,P1100,Books,tablet,Texas
+U085,b2f7b8ca,checkout,2025-04-25 12:04:59,purchase,2025-04-25 12:05:52,53.0,False,P1100,Books,tablet,Texas
+U085,b2f7b8ca,purchase,2025-04-25 12:05:52,,,,True,P1100,Books,tablet,Texas
+U086,8bb6c2c8,page_view,2025-04-25 16:05:19,add_to_cart,2025-04-25 16:06:49,90.0,False,P1091,Beauty,tablet,New York
+U086,8bb6c2c8,add_to_cart,2025-04-25 16:06:49,checkout,2025-04-25 16:07:42,53.0,False,P1091,Beauty,tablet,New York
+U086,8bb6c2c8,checkout,2025-04-25 16:07:42,purchase,2025-04-25 16:08:27,45.0,False,P1091,Beauty,tablet,New York
+U086,8bb6c2c8,purchase,2025-04-25 16:08:27,,,,True,P1091,Beauty,tablet,New York
+U087,fb3661fa,page_view,2025-04-25 13:18:40,add_to_cart,2025-04-25 13:20:13,93.0,False,P1023,Clothing,mobile,Texas
+U087,fb3661fa,add_to_cart,2025-04-25 13:20:13,checkout,2025-04-25 13:21:36,83.0,False,P1023,Clothing,mobile,Texas
+U087,fb3661fa,checkout,2025-04-25 13:21:36,purchase,2025-04-25 13:22:21,45.0,False,P1023,Clothing,mobile,Texas
+U087,fb3661fa,purchase,2025-04-25 13:22:21,,,,True,P1023,Clothing,mobile,Texas
+U088,46227942,page_view,2025-04-25 15:00:04,add_to_cart,2025-04-25 15:01:44,100.0,False,P1077,Electronics,tablet,New York
+U088,46227942,add_to_cart,2025-04-25 15:01:44,checkout,2025-04-25 15:02:56,72.0,False,P1077,Electronics,tablet,New York
+U088,46227942,checkout,2025-04-25 15:02:56,purchase,2025-04-25 15:03:40,44.0,False,P1077,Electronics,tablet,New York
+U088,46227942,purchase,2025-04-25 15:03:40,,,,True,P1077,Electronics,tablet,New York
+U089,52093f8f,page_view,2025-04-25 16:23:11,add_to_cart,2025-04-25 16:24:06,55.0,False,P1029,Home,tablet,Texas
+U089,52093f8f,add_to_cart,2025-04-25 16:24:06,checkout,2025-04-25 16:24:44,38.0,False,P1029,Home,tablet,Texas
+U089,52093f8f,checkout,2025-04-25 16:24:44,purchase,2025-04-25 16:26:15,91.0,False,P1029,Home,tablet,Texas
+U089,52093f8f,purchase,2025-04-25 16:26:15,,,,True,P1029,Home,tablet,Texas
+U090,e9e14ae9,page_view,2025-04-25 18:52:04,add_to_cart,2025-04-25 18:53:51,107.0,False,P1082,Beauty,mobile,Texas
+U090,e9e14ae9,add_to_cart,2025-04-25 18:53:51,checkout,2025-04-25 18:55:01,70.0,False,P1082,Beauty,mobile,Texas
+U090,e9e14ae9,checkout,2025-04-25 18:55:01,purchase,2025-04-25 18:56:17,76.0,False,P1082,Beauty,mobile,Texas
+U090,e9e14ae9,purchase,2025-04-25 18:56:17,,,,True,P1082,Beauty,mobile,Texas
+U091,afaac030,page_view,2025-04-25 14:03:16,add_to_cart,2025-04-25 14:04:16,60.0,False,P1096,Clothing,desktop,California
+U091,afaac030,add_to_cart,2025-04-25 14:04:16,checkout,2025-04-25 14:05:12,56.0,False,P1096,Clothing,desktop,California
+U091,afaac030,checkout,2025-04-25 14:05:12,,,,True,P1096,Clothing,desktop,California
+U092,f1f58231,page_view,2025-04-25 14:37:44,add_to_cart,2025-04-25 14:38:45,61.0,False,P1049,Books,desktop,California
+U092,f1f58231,add_to_cart,2025-04-25 14:38:45,,,,True,P1049,Books,desktop,California
+U093,84ef3f07,page_view,2025-04-25 17:10:50,add_to_cart,2025-04-25 17:11:43,53.0,False,P1029,Beauty,tablet,Illinois
+U093,84ef3f07,add_to_cart,2025-04-25 17:11:43,checkout,2025-04-25 17:12:37,54.0,False,P1029,Beauty,tablet,Illinois
+U093,84ef3f07,checkout,2025-04-25 17:12:37,,,,True,P1029,Beauty,tablet,Illinois
+U094,0f559e09,page_view,2025-04-25 10:37:21,add_to_cart,2025-04-25 10:38:04,43.0,False,P1082,Beauty,tablet,New York
+U094,0f559e09,add_to_cart,2025-04-25 10:38:04,,,,True,P1082,Beauty,tablet,New York
+U095,6bb08a6a,page_view,2025-04-25 17:41:48,add_to_cart,2025-04-25 17:43:32,104.0,False,P1004,Electronics,mobile,Florida
+U095,6bb08a6a,add_to_cart,2025-04-25 17:43:32,,,,True,P1004,Electronics,mobile,Florida
+U096,707fab8b,page_view,2025-04-25 13:44:36,add_to_cart,2025-04-25 13:45:50,74.0,False,P1063,Books,desktop,Illinois
+U096,707fab8b,add_to_cart,2025-04-25 13:45:50,checkout,2025-04-25 13:47:11,81.0,False,P1063,Books,desktop,Illinois
+U096,707fab8b,checkout,2025-04-25 13:47:11,,,,True,P1063,Books,desktop,Illinois
+U097,a77759cd,page_view,2025-04-25 14:53:06,add_to_cart,2025-04-25 14:55:05,119.0,False,P1010,Clothing,tablet,Illinois
+U097,a77759cd,add_to_cart,2025-04-25 14:55:05,checkout,2025-04-25 14:55:41,36.0,False,P1010,Clothing,tablet,Illinois
+U097,a77759cd,checkout,2025-04-25 14:55:41,purchase,2025-04-25 14:57:36,115.0,False,P1010,Clothing,tablet,Illinois
+U097,a77759cd,purchase,2025-04-25 14:57:36,,,,True,P1010,Clothing,tablet,Illinois
+U098,44c91aef,page_view,2025-04-25 16:45:41,add_to_cart,2025-04-25 16:47:39,118.0,False,P1087,Clothing,desktop,Illinois
+U098,44c91aef,add_to_cart,2025-04-25 16:47:39,checkout,2025-04-25 16:48:50,71.0,False,P1087,Clothing,desktop,Illinois
+U098,44c91aef,checkout,2025-04-25 16:48:50,,,,True,P1087,Clothing,desktop,Illinois
+U099,b80c66ab,page_view,2025-04-25 18:26:10,add_to_cart,2025-04-25 18:27:26,76.0,False,P1041,Books,mobile,Illinois
+U099,b80c66ab,add_to_cart,2025-04-25 18:27:26,,,,True,P1041,Books,mobile,Illinois
+U100,aa11c2fc,page_view,2025-04-25 17:38:21,add_to_cart,2025-04-25 17:39:35,74.0,False,P1020,Home,tablet,Illinois
+U100,aa11c2fc,add_to_cart,2025-04-25 17:39:35,checkout,2025-04-25 17:40:50,75.0,False,P1020,Home,tablet,Illinois
+U100,aa11c2fc,checkout,2025-04-25 17:40:50,purchase,2025-04-25 17:42:18,88.0,False,P1020,Home,tablet,Illinois
+U100,aa11c2fc,purchase,2025-04-25 17:42:18,,,,True,P1020,Home,tablet,Illinois
+U101,c9448802,page_view,2025-04-25 14:38:29,add_to_cart,2025-04-25 14:39:23,54.0,False,P1034,Beauty,desktop,New York
+U101,c9448802,add_to_cart,2025-04-25 14:39:23,checkout,2025-04-25 14:40:44,81.0,False,P1034,Beauty,desktop,New York
+U101,c9448802,checkout,2025-04-25 14:40:44,purchase,2025-04-25 14:41:18,34.0,False,P1034,Beauty,desktop,New York
+U101,c9448802,purchase,2025-04-25 14:41:18,,,,True,P1034,Beauty,desktop,New York
+U102,7eb25c93,page_view,2025-04-25 10:24:19,add_to_cart,2025-04-25 10:26:13,114.0,False,P1001,Books,desktop,Texas
+U102,7eb25c93,add_to_cart,2025-04-25 10:26:13,checkout,2025-04-25 10:28:03,110.0,False,P1001,Books,desktop,Texas
+U102,7eb25c93,checkout,2025-04-25 10:28:03,purchase,2025-04-25 10:28:36,33.0,False,P1001,Books,desktop,Texas
+U102,7eb25c93,purchase,2025-04-25 10:28:36,,,,True,P1001,Books,desktop,Texas
+U103,5fa65b52,page_view,2025-04-25 16:27:51,add_to_cart,2025-04-25 16:29:23,92.0,False,P1093,Beauty,tablet,Florida
+U103,5fa65b52,add_to_cart,2025-04-25 16:29:23,checkout,2025-04-25 16:30:58,95.0,False,P1093,Beauty,tablet,Florida
+U103,5fa65b52,checkout,2025-04-25 16:30:58,purchase,2025-04-25 16:31:50,52.0,False,P1093,Beauty,tablet,Florida
+U103,5fa65b52,purchase,2025-04-25 16:31:50,,,,True,P1093,Beauty,tablet,Florida
+U104,42d9e07a,page_view,2025-04-25 15:54:55,add_to_cart,2025-04-25 15:56:45,110.0,False,P1076,Electronics,desktop,Texas
+U104,42d9e07a,add_to_cart,2025-04-25 15:56:45,checkout,2025-04-25 15:57:25,40.0,False,P1076,Electronics,desktop,Texas
+U104,42d9e07a,checkout,2025-04-25 15:57:25,purchase,2025-04-25 15:58:26,61.0,False,P1076,Electronics,desktop,Texas
+U104,42d9e07a,purchase,2025-04-25 15:58:26,,,,True,P1076,Electronics,desktop,Texas
+U105,9f342784,page_view,2025-04-25 15:30:13,add_to_cart,2025-04-25 15:32:12,119.0,False,P1043,Books,desktop,Illinois
+U105,9f342784,add_to_cart,2025-04-25 15:32:12,checkout,2025-04-25 15:33:42,90.0,False,P1043,Books,desktop,Illinois
+U105,9f342784,checkout,2025-04-25 15:33:42,,,,True,P1043,Books,desktop,Illinois
+U106,325b2990,page_view,2025-04-25 15:37:50,add_to_cart,2025-04-25 15:39:08,78.0,False,P1078,Clothing,mobile,Texas
+U106,325b2990,add_to_cart,2025-04-25 15:39:08,,,,True,P1078,Clothing,mobile,Texas
+U107,b2860032,page_view,2025-04-25 16:44:31,add_to_cart,2025-04-25 16:45:58,87.0,False,P1003,Electronics,tablet,Texas
+U107,b2860032,add_to_cart,2025-04-25 16:45:58,checkout,2025-04-25 16:46:37,39.0,False,P1003,Electronics,tablet,Texas
+U107,b2860032,checkout,2025-04-25 16:46:37,purchase,2025-04-25 16:47:57,80.0,False,P1003,Electronics,tablet,Texas
+U107,b2860032,purchase,2025-04-25 16:47:57,,,,True,P1003,Electronics,tablet,Texas
+U108,7d6c8746,page_view,2025-04-25 18:26:26,add_to_cart,2025-04-25 18:27:30,64.0,False,P1021,Home,desktop,Illinois
+U108,7d6c8746,add_to_cart,2025-04-25 18:27:30,,,,True,P1021,Home,desktop,Illinois
+U109,329a0d46,page_view,2025-04-25 15:29:02,add_to_cart,2025-04-25 15:30:55,113.0,False,P1065,Clothing,tablet,California
+U109,329a0d46,add_to_cart,2025-04-25 15:30:55,checkout,2025-04-25 15:32:20,85.0,False,P1065,Clothing,tablet,California
+U109,329a0d46,checkout,2025-04-25 15:32:20,purchase,2025-04-25 15:33:29,69.0,False,P1065,Clothing,tablet,California
+U109,329a0d46,purchase,2025-04-25 15:33:29,,,,True,P1065,Clothing,tablet,California
+U110,8069064c,page_view,2025-04-25 12:10:08,add_to_cart,2025-04-25 12:11:23,75.0,False,P1067,Beauty,tablet,Illinois
+U110,8069064c,add_to_cart,2025-04-25 12:11:23,checkout,2025-04-25 12:12:03,40.0,False,P1067,Beauty,tablet,Illinois
+U110,8069064c,checkout,2025-04-25 12:12:03,purchase,2025-04-25 12:12:47,44.0,False,P1067,Beauty,tablet,Illinois
+U110,8069064c,purchase,2025-04-25 12:12:47,,,,True,P1067,Beauty,tablet,Illinois
+U111,3ac4b241,page_view,2025-04-25 12:43:50,add_to_cart,2025-04-25 12:45:28,98.0,False,P1080,Home,tablet,California
+U111,3ac4b241,add_to_cart,2025-04-25 12:45:28,,,,True,P1080,Home,tablet,California
+U112,dd786a98,page_view,2025-04-25 14:37:38,add_to_cart,2025-04-25 14:38:52,74.0,False,P1048,Books,desktop,California
+U112,dd786a98,add_to_cart,2025-04-25 14:38:52,,,,True,P1048,Books,desktop,California
+U113,e9a3d80b,page_view,2025-04-25 13:45:35,add_to_cart,2025-04-25 13:46:12,37.0,False,P1065,Electronics,desktop,Illinois
+U113,e9a3d80b,add_to_cart,2025-04-25 13:46:12,checkout,2025-04-25 13:48:02,110.0,False,P1065,Electronics,desktop,Illinois
+U113,e9a3d80b,checkout,2025-04-25 13:48:02,purchase,2025-04-25 13:49:52,110.0,False,P1065,Electronics,desktop,Illinois
+U113,e9a3d80b,purchase,2025-04-25 13:49:52,,,,True,P1065,Electronics,desktop,Illinois
+U114,5d1feece,page_view,2025-04-25 17:28:41,add_to_cart,2025-04-25 17:30:40,119.0,False,P1049,Beauty,desktop,New York
+U114,5d1feece,add_to_cart,2025-04-25 17:30:40,checkout,2025-04-25 17:32:05,85.0,False,P1049,Beauty,desktop,New York
+U114,5d1feece,checkout,2025-04-25 17:32:05,,,,True,P1049,Beauty,desktop,New York
+U115,4bf54345,page_view,2025-04-25 16:01:07,add_to_cart,2025-04-25 16:02:52,105.0,False,P1072,Beauty,mobile,Illinois
+U115,4bf54345,add_to_cart,2025-04-25 16:02:52,checkout,2025-04-25 16:04:35,103.0,False,P1072,Beauty,mobile,Illinois
+U115,4bf54345,checkout,2025-04-25 16:04:35,purchase,2025-04-25 16:06:15,100.0,False,P1072,Beauty,mobile,Illinois
+U115,4bf54345,purchase,2025-04-25 16:06:15,,,,True,P1072,Beauty,mobile,Illinois
+U116,59859c01,page_view,2025-04-25 19:01:31,add_to_cart,2025-04-25 19:02:43,72.0,False,P1099,Electronics,desktop,Texas
+U116,59859c01,add_to_cart,2025-04-25 19:02:43,checkout,2025-04-25 19:03:24,41.0,False,P1099,Electronics,desktop,Texas
+U116,59859c01,checkout,2025-04-25 19:03:24,purchase,2025-04-25 19:04:36,72.0,False,P1099,Electronics,desktop,Texas
+U116,59859c01,purchase,2025-04-25 19:04:36,,,,True,P1099,Electronics,desktop,Texas
+U117,a2ba04d7,page_view,2025-04-25 16:02:27,add_to_cart,2025-04-25 16:03:23,56.0,False,P1034,Home,tablet,Florida
+U117,a2ba04d7,add_to_cart,2025-04-25 16:03:23,checkout,2025-04-25 16:04:50,87.0,False,P1034,Home,tablet,Florida
+U117,a2ba04d7,checkout,2025-04-25 16:04:50,,,,True,P1034,Home,tablet,Florida
+U118,74757072,page_view,2025-04-25 12:33:58,add_to_cart,2025-04-25 12:34:57,59.0,False,P1091,Home,desktop,New York
+U118,74757072,add_to_cart,2025-04-25 12:34:57,checkout,2025-04-25 12:36:34,97.0,False,P1091,Home,desktop,New York
+U118,74757072,checkout,2025-04-25 12:36:34,purchase,2025-04-25 12:37:15,41.0,False,P1091,Home,desktop,New York
+U118,74757072,purchase,2025-04-25 12:37:15,,,,True,P1091,Home,desktop,New York
+U119,67d91b6e,page_view,2025-04-25 12:58:48,add_to_cart,2025-04-25 13:00:32,104.0,False,P1082,Clothing,mobile,Texas
+U119,67d91b6e,add_to_cart,2025-04-25 13:00:32,checkout,2025-04-25 13:01:10,38.0,False,P1082,Clothing,mobile,Texas
+U119,67d91b6e,checkout,2025-04-25 13:01:10,,,,True,P1082,Clothing,mobile,Texas
+U120,81538213,page_view,2025-04-25 10:41:27,add_to_cart,2025-04-25 10:42:35,68.0,False,P1048,Clothing,tablet,Texas
+U120,81538213,add_to_cart,2025-04-25 10:42:35,checkout,2025-04-25 10:43:39,64.0,False,P1048,Clothing,tablet,Texas
+U120,81538213,checkout,2025-04-25 10:43:39,,,,True,P1048,Clothing,tablet,Texas
+U121,1d79142e,page_view,2025-04-25 14:26:13,add_to_cart,2025-04-25 14:27:25,72.0,False,P1062,Electronics,mobile,California
+U121,1d79142e,add_to_cart,2025-04-25 14:27:25,checkout,2025-04-25 14:29:08,103.0,False,P1062,Electronics,mobile,California
+U121,1d79142e,checkout,2025-04-25 14:29:08,purchase,2025-04-25 14:30:52,104.0,False,P1062,Electronics,mobile,California
+U121,1d79142e,purchase,2025-04-25 14:30:52,,,,True,P1062,Electronics,mobile,California
+U122,d65549de,page_view,2025-04-25 10:44:55,add_to_cart,2025-04-25 10:46:21,86.0,False,P1058,Electronics,desktop,Florida
+U122,d65549de,add_to_cart,2025-04-25 10:46:21,checkout,2025-04-25 10:47:12,51.0,False,P1058,Electronics,desktop,Florida
+U122,d65549de,checkout,2025-04-25 10:47:12,purchase,2025-04-25 10:49:10,118.0,False,P1058,Electronics,desktop,Florida
+U122,d65549de,purchase,2025-04-25 10:49:10,,,,True,P1058,Electronics,desktop,Florida
+U123,307ab804,page_view,2025-04-25 14:08:54,add_to_cart,2025-04-25 14:10:05,71.0,False,P1042,Beauty,desktop,New York
+U123,307ab804,add_to_cart,2025-04-25 14:10:05,checkout,2025-04-25 14:11:37,92.0,False,P1042,Beauty,desktop,New York
+U123,307ab804,checkout,2025-04-25 14:11:37,,,,True,P1042,Beauty,desktop,New York
+U124,5fec7055,page_view,2025-04-25 15:20:27,add_to_cart,2025-04-25 15:22:01,94.0,False,P1086,Books,mobile,New York
+U124,5fec7055,add_to_cart,2025-04-25 15:22:01,,,,True,P1086,Books,mobile,New York
+U125,ef6057c1,page_view,2025-04-25 14:32:39,add_to_cart,2025-04-25 14:34:23,104.0,False,P1089,Home,desktop,California
+U125,ef6057c1,add_to_cart,2025-04-25 14:34:23,checkout,2025-04-25 14:36:01,98.0,False,P1089,Home,desktop,California
+U125,ef6057c1,checkout,2025-04-25 14:36:01,,,,True,P1089,Home,desktop,California
+U126,3da42d21,page_view,2025-04-25 18:55:35,add_to_cart,2025-04-25 18:57:13,98.0,False,P1025,Clothing,tablet,New York
+U126,3da42d21,add_to_cart,2025-04-25 18:57:13,checkout,2025-04-25 18:58:20,67.0,False,P1025,Clothing,tablet,New York
+U126,3da42d21,checkout,2025-04-25 18:58:20,purchase,2025-04-25 18:59:20,60.0,False,P1025,Clothing,tablet,New York
+U126,3da42d21,purchase,2025-04-25 18:59:20,,,,True,P1025,Clothing,tablet,New York
+U127,33bccc1b,page_view,2025-04-25 15:09:36,add_to_cart,2025-04-25 15:11:33,117.0,False,P1039,Books,desktop,New York
+U127,33bccc1b,add_to_cart,2025-04-25 15:11:33,,,,True,P1039,Books,desktop,New York
+U128,7f94f2e0,page_view,2025-04-25 13:22:10,add_to_cart,2025-04-25 13:22:53,43.0,False,P1056,Clothing,desktop,Texas
+U128,7f94f2e0,add_to_cart,2025-04-25 13:22:53,,,,True,P1056,Clothing,desktop,Texas
+U129,5a7d03c4,page_view,2025-04-25 12:19:35,add_to_cart,2025-04-25 12:21:17,102.0,False,P1030,Books,mobile,New York
+U129,5a7d03c4,add_to_cart,2025-04-25 12:21:17,checkout,2025-04-25 12:22:14,57.0,False,P1030,Books,mobile,New York
+U129,5a7d03c4,checkout,2025-04-25 12:22:14,purchase,2025-04-25 12:22:58,44.0,False,P1030,Books,mobile,New York
+U129,5a7d03c4,purchase,2025-04-25 12:22:58,,,,True,P1030,Books,mobile,New York
+U130,c1a59098,page_view,2025-04-25 15:32:23,add_to_cart,2025-04-25 15:33:48,85.0,False,P1044,Clothing,tablet,Texas
+U130,c1a59098,add_to_cart,2025-04-25 15:33:48,,,,True,P1044,Clothing,tablet,Texas
+U131,c0f123b5,page_view,2025-04-25 16:06:40,add_to_cart,2025-04-25 16:07:47,67.0,False,P1018,Beauty,mobile,Illinois
+U131,c0f123b5,add_to_cart,2025-04-25 16:07:47,checkout,2025-04-25 16:09:13,86.0,False,P1018,Beauty,mobile,Illinois
+U131,c0f123b5,checkout,2025-04-25 16:09:13,purchase,2025-04-25 16:09:44,31.0,False,P1018,Beauty,mobile,Illinois
+U131,c0f123b5,purchase,2025-04-25 16:09:44,,,,True,P1018,Beauty,mobile,Illinois
+U132,135f1677,page_view,2025-04-25 15:49:29,add_to_cart,2025-04-25 15:50:25,56.0,False,P1042,Electronics,mobile,Illinois
+U132,135f1677,add_to_cart,2025-04-25 15:50:25,checkout,2025-04-25 15:52:16,111.0,False,P1042,Electronics,mobile,Illinois
+U132,135f1677,checkout,2025-04-25 15:52:16,,,,True,P1042,Electronics,mobile,Illinois
+U133,b4c9bce6,page_view,2025-04-25 18:21:44,add_to_cart,2025-04-25 18:22:52,68.0,False,P1049,Electronics,desktop,New York
+U133,b4c9bce6,add_to_cart,2025-04-25 18:22:52,,,,True,P1049,Electronics,desktop,New York
+U134,aa1ecd2b,page_view,2025-04-25 10:58:24,add_to_cart,2025-04-25 10:59:29,65.0,False,P1065,Home,mobile,Florida
+U134,aa1ecd2b,add_to_cart,2025-04-25 10:59:29,checkout,2025-04-25 11:01:12,103.0,False,P1065,Home,mobile,Florida
+U134,aa1ecd2b,checkout,2025-04-25 11:01:12,purchase,2025-04-25 11:02:36,84.0,False,P1065,Home,mobile,Florida
+U134,aa1ecd2b,purchase,2025-04-25 11:02:36,,,,True,P1065,Home,mobile,Florida
+U135,a38d5765,page_view,2025-04-25 14:00:25,add_to_cart,2025-04-25 14:01:27,62.0,False,P1092,Clothing,tablet,Texas
+U135,a38d5765,add_to_cart,2025-04-25 14:01:27,checkout,2025-04-25 14:03:25,118.0,False,P1092,Clothing,tablet,Texas
+U135,a38d5765,checkout,2025-04-25 14:03:25,purchase,2025-04-25 14:04:33,68.0,False,P1092,Clothing,tablet,Texas
+U135,a38d5765,purchase,2025-04-25 14:04:33,,,,True,P1092,Clothing,tablet,Texas
+U136,3a723855,page_view,2025-04-25 13:37:11,add_to_cart,2025-04-25 13:38:31,80.0,False,P1021,Books,desktop,Illinois
+U136,3a723855,add_to_cart,2025-04-25 13:38:31,checkout,2025-04-25 13:39:59,88.0,False,P1021,Books,desktop,Illinois
+U136,3a723855,checkout,2025-04-25 13:39:59,,,,True,P1021,Books,desktop,Illinois
+U137,927d505d,page_view,2025-04-25 16:16:14,add_to_cart,2025-04-25 16:17:07,53.0,False,P1073,Home,tablet,California
+U137,927d505d,add_to_cart,2025-04-25 16:17:07,checkout,2025-04-25 16:18:10,63.0,False,P1073,Home,tablet,California
+U137,927d505d,checkout,2025-04-25 16:18:10,,,,True,P1073,Home,tablet,California
+U138,593abc52,page_view,2025-04-25 14:11:45,add_to_cart,2025-04-25 14:13:45,120.0,False,P1061,Electronics,tablet,California
+U138,593abc52,add_to_cart,2025-04-25 14:13:45,checkout,2025-04-25 14:15:35,110.0,False,P1061,Electronics,tablet,California
+U138,593abc52,checkout,2025-04-25 14:15:35,,,,True,P1061,Electronics,tablet,California
+U139,32fe2422,page_view,2025-04-25 18:17:51,add_to_cart,2025-04-25 18:19:47,116.0,False,P1021,Clothing,desktop,Florida
+U139,32fe2422,add_to_cart,2025-04-25 18:19:47,checkout,2025-04-25 18:21:07,80.0,False,P1021,Clothing,desktop,Florida
+U139,32fe2422,checkout,2025-04-25 18:21:07,purchase,2025-04-25 18:22:39,92.0,False,P1021,Clothing,desktop,Florida
+U139,32fe2422,purchase,2025-04-25 18:22:39,,,,True,P1021,Clothing,desktop,Florida
+U140,e3a710d3,page_view,2025-04-25 12:36:15,add_to_cart,2025-04-25 12:37:53,98.0,False,P1015,Books,tablet,Illinois
+U140,e3a710d3,add_to_cart,2025-04-25 12:37:53,checkout,2025-04-25 12:39:08,75.0,False,P1015,Books,tablet,Illinois
+U140,e3a710d3,checkout,2025-04-25 12:39:08,,,,True,P1015,Books,tablet,Illinois
+U141,ab7c8b05,page_view,2025-04-25 17:19:25,add_to_cart,2025-04-25 17:20:21,56.0,False,P1028,Home,mobile,California
+U141,ab7c8b05,add_to_cart,2025-04-25 17:20:21,,,,True,P1028,Home,mobile,California
+U142,c7905b03,page_view,2025-04-25 18:26:07,add_to_cart,2025-04-25 18:27:49,102.0,False,P1005,Beauty,desktop,New York
+U142,c7905b03,add_to_cart,2025-04-25 18:27:49,,,,True,P1005,Beauty,desktop,New York
+U143,15e52d54,page_view,2025-04-25 15:57:46,add_to_cart,2025-04-25 15:58:17,31.0,False,P1042,Beauty,tablet,Texas
+U143,15e52d54,add_to_cart,2025-04-25 15:58:17,checkout,2025-04-25 16:00:17,120.0,False,P1042,Beauty,tablet,Texas
+U143,15e52d54,checkout,2025-04-25 16:00:17,,,,True,P1042,Beauty,tablet,Texas
+U144,d9716a24,page_view,2025-04-25 13:39:41,add_to_cart,2025-04-25 13:41:19,98.0,False,P1097,Beauty,tablet,New York
+U144,d9716a24,add_to_cart,2025-04-25 13:41:19,checkout,2025-04-25 13:41:57,38.0,False,P1097,Beauty,tablet,New York
+U144,d9716a24,checkout,2025-04-25 13:41:57,purchase,2025-04-25 13:43:18,81.0,False,P1097,Beauty,tablet,New York
+U144,d9716a24,purchase,2025-04-25 13:43:18,,,,True,P1097,Beauty,tablet,New York
+U145,318b0ba9,page_view,2025-04-25 18:08:06,add_to_cart,2025-04-25 18:08:46,40.0,False,P1062,Clothing,desktop,Illinois
+U145,318b0ba9,add_to_cart,2025-04-25 18:08:46,,,,True,P1062,Clothing,desktop,Illinois
+U146,993e7078,page_view,2025-04-25 12:58:32,add_to_cart,2025-04-25 12:59:27,55.0,False,P1015,Electronics,mobile,Illinois
+U146,993e7078,add_to_cart,2025-04-25 12:59:27,checkout,2025-04-25 13:00:32,65.0,False,P1015,Electronics,mobile,Illinois
+U146,993e7078,checkout,2025-04-25 13:00:32,purchase,2025-04-25 13:01:08,36.0,False,P1015,Electronics,mobile,Illinois
+U146,993e7078,purchase,2025-04-25 13:01:08,,,,True,P1015,Electronics,mobile,Illinois
+U147,b27c13c7,page_view,2025-04-25 15:12:38,add_to_cart,2025-04-25 15:14:20,102.0,False,P1011,Clothing,tablet,California
+U147,b27c13c7,add_to_cart,2025-04-25 15:14:20,checkout,2025-04-25 15:15:27,67.0,False,P1011,Clothing,tablet,California
+U147,b27c13c7,checkout,2025-04-25 15:15:27,purchase,2025-04-25 15:16:43,76.0,False,P1011,Clothing,tablet,California
+U147,b27c13c7,purchase,2025-04-25 15:16:43,,,,True,P1011,Clothing,tablet,California
+U148,daea1654,page_view,2025-04-25 11:12:04,add_to_cart,2025-04-25 11:12:38,34.0,False,P1032,Electronics,desktop,New York
+U148,daea1654,add_to_cart,2025-04-25 11:12:38,,,,True,P1032,Electronics,desktop,New York
+U149,16bfc3d1,page_view,2025-04-25 13:22:18,add_to_cart,2025-04-25 13:23:44,86.0,False,P1032,Books,tablet,Florida
+U149,16bfc3d1,add_to_cart,2025-04-25 13:23:44,,,,True,P1032,Books,tablet,Florida
+U150,22fae6bd,page_view,2025-04-25 14:40:09,add_to_cart,2025-04-25 14:41:33,84.0,False,P1003,Clothing,mobile,Texas
+U150,22fae6bd,add_to_cart,2025-04-25 14:41:33,checkout,2025-04-25 14:42:36,63.0,False,P1003,Clothing,mobile,Texas
+U150,22fae6bd,checkout,2025-04-25 14:42:36,,,,True,P1003,Clothing,mobile,Texas
+U151,176455a9,page_view,2025-04-25 14:23:19,add_to_cart,2025-04-25 14:24:31,72.0,False,P1055,Clothing,tablet,New York
+U151,176455a9,add_to_cart,2025-04-25 14:24:31,checkout,2025-04-25 14:25:57,86.0,False,P1055,Clothing,tablet,New York
+U151,176455a9,checkout,2025-04-25 14:25:57,,,,True,P1055,Clothing,tablet,New York
+U152,7a6bd9af,page_view,2025-04-25 18:13:45,add_to_cart,2025-04-25 18:15:28,103.0,False,P1044,Home,desktop,California
+U152,7a6bd9af,add_to_cart,2025-04-25 18:15:28,checkout,2025-04-25 18:17:15,107.0,False,P1044,Home,desktop,California
+U152,7a6bd9af,checkout,2025-04-25 18:17:15,,,,True,P1044,Home,desktop,California
+U153,3a6e9607,page_view,2025-04-25 15:04:29,add_to_cart,2025-04-25 15:06:15,106.0,False,P1061,Books,desktop,California
+U153,3a6e9607,add_to_cart,2025-04-25 15:06:15,,,,True,P1061,Books,desktop,California
+U154,7a969608,page_view,2025-04-25 14:34:43,add_to_cart,2025-04-25 14:36:35,112.0,False,P1006,Electronics,tablet,New York
+U154,7a969608,add_to_cart,2025-04-25 14:36:35,checkout,2025-04-25 14:38:05,90.0,False,P1006,Electronics,tablet,New York
+U154,7a969608,checkout,2025-04-25 14:38:05,purchase,2025-04-25 14:39:55,110.0,False,P1006,Electronics,tablet,New York
+U154,7a969608,purchase,2025-04-25 14:39:55,,,,True,P1006,Electronics,tablet,New York
+U155,e0a52549,page_view,2025-04-25 14:18:55,add_to_cart,2025-04-25 14:20:26,91.0,False,P1098,Home,tablet,Texas
+U155,e0a52549,add_to_cart,2025-04-25 14:20:26,checkout,2025-04-25 14:21:08,42.0,False,P1098,Home,tablet,Texas
+U155,e0a52549,checkout,2025-04-25 14:21:08,,,,True,P1098,Home,tablet,Texas
+U156,6d1b3fdb,page_view,2025-04-25 12:02:13,add_to_cart,2025-04-25 12:03:12,59.0,False,P1070,Electronics,mobile,Florida
+U156,6d1b3fdb,add_to_cart,2025-04-25 12:03:12,checkout,2025-04-25 12:04:16,64.0,False,P1070,Electronics,mobile,Florida
+U156,6d1b3fdb,checkout,2025-04-25 12:04:16,purchase,2025-04-25 12:05:35,79.0,False,P1070,Electronics,mobile,Florida
+U156,6d1b3fdb,purchase,2025-04-25 12:05:35,,,,True,P1070,Electronics,mobile,Florida
+U157,83779d37,page_view,2025-04-25 10:59:07,add_to_cart,2025-04-25 11:00:08,61.0,False,P1001,Beauty,tablet,Florida
+U157,83779d37,add_to_cart,2025-04-25 11:00:08,checkout,2025-04-25 11:01:14,66.0,False,P1001,Beauty,tablet,Florida
+U157,83779d37,checkout,2025-04-25 11:01:14,purchase,2025-04-25 11:01:52,38.0,False,P1001,Beauty,tablet,Florida
+U157,83779d37,purchase,2025-04-25 11:01:52,,,,True,P1001,Beauty,tablet,Florida
+U158,16f06203,page_view,2025-04-25 17:21:51,add_to_cart,2025-04-25 17:23:10,79.0,False,P1081,Electronics,tablet,Texas
+U158,16f06203,add_to_cart,2025-04-25 17:23:10,checkout,2025-04-25 17:25:01,111.0,False,P1081,Electronics,tablet,Texas
+U158,16f06203,checkout,2025-04-25 17:25:01,purchase,2025-04-25 17:27:00,119.0,False,P1081,Electronics,tablet,Texas
+U158,16f06203,purchase,2025-04-25 17:27:00,,,,True,P1081,Electronics,tablet,Texas
+U159,197c780b,page_view,2025-04-25 11:43:05,add_to_cart,2025-04-25 11:44:26,81.0,False,P1061,Home,tablet,Illinois
+U159,197c780b,add_to_cart,2025-04-25 11:44:26,checkout,2025-04-25 11:46:09,103.0,False,P1061,Home,tablet,Illinois
+U159,197c780b,checkout,2025-04-25 11:46:09,,,,True,P1061,Home,tablet,Illinois
+U160,5ee41aad,page_view,2025-04-25 12:15:11,add_to_cart,2025-04-25 12:16:08,57.0,False,P1095,Home,tablet,California
+U160,5ee41aad,add_to_cart,2025-04-25 12:16:08,checkout,2025-04-25 12:16:45,37.0,False,P1095,Home,tablet,California
+U160,5ee41aad,checkout,2025-04-25 12:16:45,purchase,2025-04-25 12:17:52,67.0,False,P1095,Home,tablet,California
+U160,5ee41aad,purchase,2025-04-25 12:17:52,,,,True,P1095,Home,tablet,California
+U161,bcd64892,page_view,2025-04-25 12:38:59,add_to_cart,2025-04-25 12:40:19,80.0,False,P1009,Books,tablet,California
+U161,bcd64892,add_to_cart,2025-04-25 12:40:19,checkout,2025-04-25 12:40:51,32.0,False,P1009,Books,tablet,California
+U161,bcd64892,checkout,2025-04-25 12:40:51,,,,True,P1009,Books,tablet,California
+U162,20bff74d,page_view,2025-04-25 15:33:52,add_to_cart,2025-04-25 15:35:32,100.0,False,P1097,Clothing,mobile,California
+U162,20bff74d,add_to_cart,2025-04-25 15:35:32,checkout,2025-04-25 15:36:04,32.0,False,P1097,Clothing,mobile,California
+U162,20bff74d,checkout,2025-04-25 15:36:04,purchase,2025-04-25 15:38:03,119.0,False,P1097,Clothing,mobile,California
+U162,20bff74d,purchase,2025-04-25 15:38:03,,,,True,P1097,Clothing,mobile,California
+U163,eb4cdb91,page_view,2025-04-25 16:58:51,add_to_cart,2025-04-25 17:00:33,102.0,False,P1026,Clothing,tablet,Illinois
+U163,eb4cdb91,add_to_cart,2025-04-25 17:00:33,checkout,2025-04-25 17:01:42,69.0,False,P1026,Clothing,tablet,Illinois
+U163,eb4cdb91,checkout,2025-04-25 17:01:42,purchase,2025-04-25 17:02:46,64.0,False,P1026,Clothing,tablet,Illinois
+U163,eb4cdb91,purchase,2025-04-25 17:02:46,,,,True,P1026,Clothing,tablet,Illinois
+U164,a89fb3ff,page_view,2025-04-25 17:15:34,add_to_cart,2025-04-25 17:16:48,74.0,False,P1029,Home,desktop,Illinois
+U164,a89fb3ff,add_to_cart,2025-04-25 17:16:48,checkout,2025-04-25 17:18:39,111.0,False,P1029,Home,desktop,Illinois
+U164,a89fb3ff,checkout,2025-04-25 17:18:39,purchase,2025-04-25 17:19:28,49.0,False,P1029,Home,desktop,Illinois
+U164,a89fb3ff,purchase,2025-04-25 17:19:28,,,,True,P1029,Home,desktop,Illinois
+U165,116cfd3a,page_view,2025-04-25 14:52:59,add_to_cart,2025-04-25 14:54:45,106.0,False,P1020,Books,desktop,Illinois
+U165,116cfd3a,add_to_cart,2025-04-25 14:54:45,checkout,2025-04-25 14:55:50,65.0,False,P1020,Books,desktop,Illinois
+U165,116cfd3a,checkout,2025-04-25 14:55:50,purchase,2025-04-25 14:57:13,83.0,False,P1020,Books,desktop,Illinois
+U165,116cfd3a,purchase,2025-04-25 14:57:13,,,,True,P1020,Books,desktop,Illinois
+U166,67ced883,page_view,2025-04-25 14:52:10,add_to_cart,2025-04-25 14:53:23,73.0,False,P1039,Beauty,desktop,Florida
+U166,67ced883,add_to_cart,2025-04-25 14:53:23,checkout,2025-04-25 14:54:26,63.0,False,P1039,Beauty,desktop,Florida
+U166,67ced883,checkout,2025-04-25 14:54:26,,,,True,P1039,Beauty,desktop,Florida
+U167,9ecf5e70,page_view,2025-04-25 12:40:58,add_to_cart,2025-04-25 12:41:56,58.0,False,P1080,Beauty,desktop,Florida
+U167,9ecf5e70,add_to_cart,2025-04-25 12:41:56,checkout,2025-04-25 12:43:53,117.0,False,P1080,Beauty,desktop,Florida
+U167,9ecf5e70,checkout,2025-04-25 12:43:53,purchase,2025-04-25 12:45:23,90.0,False,P1080,Beauty,desktop,Florida
+U167,9ecf5e70,purchase,2025-04-25 12:45:23,,,,True,P1080,Beauty,desktop,Florida
+U168,fe822f70,page_view,2025-04-25 15:13:49,add_to_cart,2025-04-25 15:14:28,39.0,False,P1065,Beauty,desktop,Florida
+U168,fe822f70,add_to_cart,2025-04-25 15:14:28,checkout,2025-04-25 15:15:10,42.0,False,P1065,Beauty,desktop,Florida
+U168,fe822f70,checkout,2025-04-25 15:15:10,,,,True,P1065,Beauty,desktop,Florida
+U169,3b793329,page_view,2025-04-25 14:56:11,add_to_cart,2025-04-25 14:57:07,56.0,False,P1069,Clothing,desktop,Illinois
+U169,3b793329,add_to_cart,2025-04-25 14:57:07,checkout,2025-04-25 14:58:46,99.0,False,P1069,Clothing,desktop,Illinois
+U169,3b793329,checkout,2025-04-25 14:58:46,,,,True,P1069,Clothing,desktop,Illinois
+U170,f031dad2,page_view,2025-04-25 11:50:25,add_to_cart,2025-04-25 11:51:51,86.0,False,P1011,Home,desktop,New York
+U170,f031dad2,add_to_cart,2025-04-25 11:51:51,checkout,2025-04-25 11:53:13,82.0,False,P1011,Home,desktop,New York
+U170,f031dad2,checkout,2025-04-25 11:53:13,,,,True,P1011,Home,desktop,New York
+U171,9d89de49,page_view,2025-04-25 14:02:32,add_to_cart,2025-04-25 14:04:24,112.0,False,P1098,Beauty,tablet,New York
+U171,9d89de49,add_to_cart,2025-04-25 14:04:24,checkout,2025-04-25 14:05:37,73.0,False,P1098,Beauty,tablet,New York
+U171,9d89de49,checkout,2025-04-25 14:05:37,purchase,2025-04-25 14:07:27,110.0,False,P1098,Beauty,tablet,New York
+U171,9d89de49,purchase,2025-04-25 14:07:27,,,,True,P1098,Beauty,tablet,New York
+U172,f38574e5,page_view,2025-04-25 18:16:01,add_to_cart,2025-04-25 18:17:00,59.0,False,P1026,Home,mobile,Florida
+U172,f38574e5,add_to_cart,2025-04-25 18:17:00,,,,True,P1026,Home,mobile,Florida
+U173,2b36e0a0,page_view,2025-04-25 18:58:33,add_to_cart,2025-04-25 18:59:31,58.0,False,P1009,Books,mobile,Florida
+U173,2b36e0a0,add_to_cart,2025-04-25 18:59:31,checkout,2025-04-25 19:00:52,81.0,False,P1009,Books,mobile,Florida
+U173,2b36e0a0,checkout,2025-04-25 19:00:52,purchase,2025-04-25 19:02:49,117.0,False,P1009,Books,mobile,Florida
+U173,2b36e0a0,purchase,2025-04-25 19:02:49,,,,True,P1009,Books,mobile,Florida
+U174,c9d07162,page_view,2025-04-25 14:16:45,add_to_cart,2025-04-25 14:17:30,45.0,False,P1050,Clothing,desktop,New York
+U174,c9d07162,add_to_cart,2025-04-25 14:17:30,checkout,2025-04-25 14:19:24,114.0,False,P1050,Clothing,desktop,New York
+U174,c9d07162,checkout,2025-04-25 14:19:24,,,,True,P1050,Clothing,desktop,New York
+U175,ffb2c5dc,page_view,2025-04-25 14:18:56,add_to_cart,2025-04-25 14:19:36,40.0,False,P1002,Beauty,tablet,Illinois
+U175,ffb2c5dc,add_to_cart,2025-04-25 14:19:36,checkout,2025-04-25 14:21:01,85.0,False,P1002,Beauty,tablet,Illinois
+U175,ffb2c5dc,checkout,2025-04-25 14:21:01,purchase,2025-04-25 14:21:39,38.0,False,P1002,Beauty,tablet,Illinois
+U175,ffb2c5dc,purchase,2025-04-25 14:21:39,,,,True,P1002,Beauty,tablet,Illinois
+U176,4931597e,page_view,2025-04-25 15:18:49,add_to_cart,2025-04-25 15:20:17,88.0,False,P1067,Electronics,tablet,California
+U176,4931597e,add_to_cart,2025-04-25 15:20:17,checkout,2025-04-25 15:22:16,119.0,False,P1067,Electronics,tablet,California
+U176,4931597e,checkout,2025-04-25 15:22:16,purchase,2025-04-25 15:23:18,62.0,False,P1067,Electronics,tablet,California
+U176,4931597e,purchase,2025-04-25 15:23:18,,,,True,P1067,Electronics,tablet,California
+U177,85f70fc8,page_view,2025-04-25 12:23:01,add_to_cart,2025-04-25 12:24:41,100.0,False,P1039,Clothing,mobile,California
+U177,85f70fc8,add_to_cart,2025-04-25 12:24:41,checkout,2025-04-25 12:25:54,73.0,False,P1039,Clothing,mobile,California
+U177,85f70fc8,checkout,2025-04-25 12:25:54,purchase,2025-04-25 12:26:39,45.0,False,P1039,Clothing,mobile,California
+U177,85f70fc8,purchase,2025-04-25 12:26:39,,,,True,P1039,Clothing,mobile,California
+U178,f1f25a9f,page_view,2025-04-25 14:34:22,add_to_cart,2025-04-25 14:35:04,42.0,False,P1049,Beauty,tablet,Florida
+U178,f1f25a9f,add_to_cart,2025-04-25 14:35:04,checkout,2025-04-25 14:36:48,104.0,False,P1049,Beauty,tablet,Florida
+U178,f1f25a9f,checkout,2025-04-25 14:36:48,purchase,2025-04-25 14:38:42,114.0,False,P1049,Beauty,tablet,Florida
+U178,f1f25a9f,purchase,2025-04-25 14:38:42,,,,True,P1049,Beauty,tablet,Florida
+U179,555177ce,page_view,2025-04-25 13:15:13,add_to_cart,2025-04-25 13:16:07,54.0,False,P1073,Home,mobile,Texas
+U179,555177ce,add_to_cart,2025-04-25 13:16:07,,,,True,P1073,Home,mobile,Texas
+U180,d3235678,page_view,2025-04-25 13:53:03,add_to_cart,2025-04-25 13:54:41,98.0,False,P1098,Beauty,desktop,Florida
+U180,d3235678,add_to_cart,2025-04-25 13:54:41,,,,True,P1098,Beauty,desktop,Florida
+U181,f966b939,page_view,2025-04-25 10:23:59,add_to_cart,2025-04-25 10:25:46,107.0,False,P1008,Beauty,tablet,Texas
+U181,f966b939,add_to_cart,2025-04-25 10:25:46,checkout,2025-04-25 10:27:27,101.0,False,P1008,Beauty,tablet,Texas
+U181,f966b939,checkout,2025-04-25 10:27:27,,,,True,P1008,Beauty,tablet,Texas
+U182,98a382f3,page_view,2025-04-25 12:33:08,add_to_cart,2025-04-25 12:33:50,42.0,False,P1085,Books,tablet,Illinois
+U182,98a382f3,add_to_cart,2025-04-25 12:33:50,checkout,2025-04-25 12:35:41,111.0,False,P1085,Books,tablet,Illinois
+U182,98a382f3,checkout,2025-04-25 12:35:41,purchase,2025-04-25 12:36:40,59.0,False,P1085,Books,tablet,Illinois
+U182,98a382f3,purchase,2025-04-25 12:36:40,,,,True,P1085,Books,tablet,Illinois
+U183,906fac3b,page_view,2025-04-25 13:00:17,add_to_cart,2025-04-25 13:01:15,58.0,False,P1006,Beauty,tablet,California
+U183,906fac3b,add_to_cart,2025-04-25 13:01:15,checkout,2025-04-25 13:02:27,72.0,False,P1006,Beauty,tablet,California
+U183,906fac3b,checkout,2025-04-25 13:02:27,purchase,2025-04-25 13:04:11,104.0,False,P1006,Beauty,tablet,California
+U183,906fac3b,purchase,2025-04-25 13:04:11,,,,True,P1006,Beauty,tablet,California
+U184,3bf70b6d,page_view,2025-04-25 12:23:43,add_to_cart,2025-04-25 12:25:32,109.0,False,P1063,Home,mobile,Illinois
+U184,3bf70b6d,add_to_cart,2025-04-25 12:25:32,checkout,2025-04-25 12:26:21,49.0,False,P1063,Home,mobile,Illinois
+U184,3bf70b6d,checkout,2025-04-25 12:26:21,purchase,2025-04-25 12:28:04,103.0,False,P1063,Home,mobile,Illinois
+U184,3bf70b6d,purchase,2025-04-25 12:28:04,,,,True,P1063,Home,mobile,Illinois
+U185,c24629b3,page_view,2025-04-25 14:31:22,add_to_cart,2025-04-25 14:32:21,59.0,False,P1054,Clothing,tablet,California
+U185,c24629b3,add_to_cart,2025-04-25 14:32:21,checkout,2025-04-25 14:33:49,88.0,False,P1054,Clothing,tablet,California
+U185,c24629b3,checkout,2025-04-25 14:33:49,purchase,2025-04-25 14:34:52,63.0,False,P1054,Clothing,tablet,California
+U185,c24629b3,purchase,2025-04-25 14:34:52,,,,True,P1054,Clothing,tablet,California
+U186,15ca1c8f,page_view,2025-04-25 15:13:16,add_to_cart,2025-04-25 15:14:31,75.0,False,P1058,Books,tablet,Illinois
+U186,15ca1c8f,add_to_cart,2025-04-25 15:14:31,checkout,2025-04-25 15:15:59,88.0,False,P1058,Books,tablet,Illinois
+U186,15ca1c8f,checkout,2025-04-25 15:15:59,,,,True,P1058,Books,tablet,Illinois
+U187,d72ab77f,page_view,2025-04-25 19:00:25,add_to_cart,2025-04-25 19:02:15,110.0,False,P1043,Electronics,tablet,New York
+U187,d72ab77f,add_to_cart,2025-04-25 19:02:15,checkout,2025-04-25 19:03:46,91.0,False,P1043,Electronics,tablet,New York
+U187,d72ab77f,checkout,2025-04-25 19:03:46,,,,True,P1043,Electronics,tablet,New York
+U188,a435f71b,page_view,2025-04-25 12:55:35,add_to_cart,2025-04-25 12:56:22,47.0,False,P1044,Home,mobile,Florida
+U188,a435f71b,add_to_cart,2025-04-25 12:56:22,checkout,2025-04-25 12:57:38,76.0,False,P1044,Home,mobile,Florida
+U188,a435f71b,checkout,2025-04-25 12:57:38,purchase,2025-04-25 12:59:20,102.0,False,P1044,Home,mobile,Florida
+U188,a435f71b,purchase,2025-04-25 12:59:20,,,,True,P1044,Home,mobile,Florida
+U189,bf7526ac,page_view,2025-04-25 18:13:37,add_to_cart,2025-04-25 18:15:04,87.0,False,P1070,Electronics,desktop,Illinois
+U189,bf7526ac,add_to_cart,2025-04-25 18:15:04,checkout,2025-04-25 18:15:48,44.0,False,P1070,Electronics,desktop,Illinois
+U189,bf7526ac,checkout,2025-04-25 18:15:48,purchase,2025-04-25 18:17:43,115.0,False,P1070,Electronics,desktop,Illinois
+U189,bf7526ac,purchase,2025-04-25 18:17:43,,,,True,P1070,Electronics,desktop,Illinois
+U190,340a99ec,page_view,2025-04-25 12:55:43,add_to_cart,2025-04-25 12:57:31,108.0,False,P1092,Beauty,mobile,Texas
+U190,340a99ec,add_to_cart,2025-04-25 12:57:31,checkout,2025-04-25 12:58:26,55.0,False,P1092,Beauty,mobile,Texas
+U190,340a99ec,checkout,2025-04-25 12:58:26,,,,True,P1092,Beauty,mobile,Texas
+U191,8bc2bafc,page_view,2025-04-25 16:16:34,add_to_cart,2025-04-25 16:17:48,74.0,False,P1000,Electronics,mobile,Illinois
+U191,8bc2bafc,add_to_cart,2025-04-25 16:17:48,checkout,2025-04-25 16:18:27,39.0,False,P1000,Electronics,mobile,Illinois
+U191,8bc2bafc,checkout,2025-04-25 16:18:27,,,,True,P1000,Electronics,mobile,Illinois
+U192,f853834d,page_view,2025-04-25 10:37:22,add_to_cart,2025-04-25 10:38:04,42.0,False,P1051,Clothing,tablet,New York
+U192,f853834d,add_to_cart,2025-04-25 10:38:04,checkout,2025-04-25 10:39:15,71.0,False,P1051,Clothing,tablet,New York
+U192,f853834d,checkout,2025-04-25 10:39:15,purchase,2025-04-25 10:40:50,95.0,False,P1051,Clothing,tablet,New York
+U192,f853834d,purchase,2025-04-25 10:40:50,,,,True,P1051,Clothing,tablet,New York
+U193,2df680f0,page_view,2025-04-25 18:30:04,add_to_cart,2025-04-25 18:31:07,63.0,False,P1079,Books,tablet,Texas
+U193,2df680f0,add_to_cart,2025-04-25 18:31:07,checkout,2025-04-25 18:32:32,85.0,False,P1079,Books,tablet,Texas
+U193,2df680f0,checkout,2025-04-25 18:32:32,purchase,2025-04-25 18:34:07,95.0,False,P1079,Books,tablet,Texas
+U193,2df680f0,purchase,2025-04-25 18:34:07,,,,True,P1079,Books,tablet,Texas
+U194,59da1967,page_view,2025-04-25 15:01:29,add_to_cart,2025-04-25 15:03:29,120.0,False,P1039,Electronics,tablet,Illinois
+U194,59da1967,add_to_cart,2025-04-25 15:03:29,checkout,2025-04-25 15:04:09,40.0,False,P1039,Electronics,tablet,Illinois
+U194,59da1967,checkout,2025-04-25 15:04:09,purchase,2025-04-25 15:05:11,62.0,False,P1039,Electronics,tablet,Illinois
+U194,59da1967,purchase,2025-04-25 15:05:11,,,,True,P1039,Electronics,tablet,Illinois
+U195,847616de,page_view,2025-04-25 11:48:52,add_to_cart,2025-04-25 11:49:23,31.0,False,P1012,Clothing,tablet,Illinois
+U195,847616de,add_to_cart,2025-04-25 11:49:23,,,,True,P1012,Clothing,tablet,Illinois
+U196,30c5fc15,page_view,2025-04-25 15:22:54,add_to_cart,2025-04-25 15:23:38,44.0,False,P1007,Home,desktop,Texas
+U196,30c5fc15,add_to_cart,2025-04-25 15:23:38,,,,True,P1007,Home,desktop,Texas
+U197,f2cd1f50,page_view,2025-04-25 13:04:06,add_to_cart,2025-04-25 13:04:41,35.0,False,P1045,Home,tablet,Illinois
+U197,f2cd1f50,add_to_cart,2025-04-25 13:04:41,checkout,2025-04-25 13:06:23,102.0,False,P1045,Home,tablet,Illinois
+U197,f2cd1f50,checkout,2025-04-25 13:06:23,,,,True,P1045,Home,tablet,Illinois
+U198,72c85fa4,page_view,2025-04-25 14:21:39,add_to_cart,2025-04-25 14:23:21,102.0,False,P1042,Books,desktop,Texas
+U198,72c85fa4,add_to_cart,2025-04-25 14:23:21,,,,True,P1042,Books,desktop,Texas
+U199,446f599f,page_view,2025-04-25 17:07:32,add_to_cart,2025-04-25 17:09:01,89.0,False,P1036,Beauty,mobile,California
+U199,446f599f,add_to_cart,2025-04-25 17:09:01,,,,True,P1036,Beauty,mobile,California
+U200,9dd4c3ac,page_view,2025-04-25 11:33:39,add_to_cart,2025-04-25 11:35:39,120.0,False,P1026,Beauty,tablet,Texas
+U200,9dd4c3ac,add_to_cart,2025-04-25 11:35:39,checkout,2025-04-25 11:37:37,118.0,False,P1026,Beauty,tablet,Texas
+U200,9dd4c3ac,checkout,2025-04-25 11:37:37,purchase,2025-04-25 11:39:17,100.0,False,P1026,Beauty,tablet,Texas
+U200,9dd4c3ac,purchase,2025-04-25 11:39:17,,,,True,P1026,Beauty,tablet,Texas
